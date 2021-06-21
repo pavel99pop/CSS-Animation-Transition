@@ -67,12 +67,16 @@ body {
   animation-duration: 3s;
   animation-delay: 3s;
   animation-fill-mode: forwards;
+
+  transition-property: transform;
+  transition-duration: 1s;
 }
 
 .btn:hover {
   background: goldenrod;
   color: #12475f;
   border: #fff 1px solid;
+  transform: rotateY(180deg);
 }
 
 @keyframes btn {
